@@ -230,7 +230,6 @@ footer p {
 }
 
 @media only screen and (max-width:576px) {
-
   /* team cards */
   #team .w3-card {
     border-radius: 2%;
