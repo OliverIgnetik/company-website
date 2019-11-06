@@ -30,6 +30,69 @@ html {
   padding: 16px;
 }
 
+.w3-container{
+  padding: 7% 5%;
+  padding-bottom: 5rem;
+}
+
+.row{
+  margin-top:2rem;
+}
+
+.col-md-6{
+  margin: 2rem 0;
+}
+
+/* about */
+
+#about i{
+  margin-bottom:1rem;
+}
+
+/* promo */
+#promo .row {
+  margin-top:0;
+}
+
+#promo p{
+  margin: 5% 0;
+}
+
+#promo .col-md-6{
+  margin: 0;
+ }
+
+ /* team */
+ #team .w3-container{
+   padding: 4% 4%;
+ }
+
+ #team .col-sm-6{
+   margin-bottom: 2rem;
+ }
+
+ #team img{
+   border-radius: 2% 2% 0 0;
+ }
+
+ #team .w3-card {
+   border-radius:2%;
+ }
+
+/* work  */
+
+#carouselExampleControls {
+  border-radius: 2%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#carouselExampleControls img{
+  border-radius: 2%;
+  -webkit-filter: contrast(50%); /* Safari 6.0 - 9.0 */
+  filter: contrast(50%);
+}
+
 /* partners formatting */
 #partners img {
   height: auto;
@@ -48,72 +111,6 @@ html {
   margin: 0 auto;
 }
 
-/* slideshow formatting */
-* {
-  box-sizing: border-box;
-}
-
-.mySlides {
-  display: none;
-}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s;
-  animation-name: fade;
-  animation-duration: 3s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
 /* footer styling*/
 
 .col_white_amrc {
@@ -125,11 +122,6 @@ footer {
   background-color: black;
   min-height: 250px;
   padding: 5%;
-}
-
-footer-content {
-  padding-right: 0;
-  padding-left: 0;
 }
 
 footer p {
@@ -196,11 +188,6 @@ footer p {
   text-align: center;
 }
 
-
-.col-md-6{
-  margin: 2rem 0;
-}
-
 .footer-info{
   display: flex;
   flex-direction: row;
@@ -212,7 +199,28 @@ footer p {
 }
 
 @media only screen and (max-width:500px){
-  col_white_amrc {
+  .col_white_amrc {
     font-size: 0.8rem;
+  }
+
+  /* team cards */
+  #team .w3-card {
+    border-radius:2%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  /* carousel */
+  #carouselExampleControls {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:900px){
+  /* carousel */
+  #carouselExampleControls {
+    width: 80%;
+    margin: 0 auto;
   }
 }
