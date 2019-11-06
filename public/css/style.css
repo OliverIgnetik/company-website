@@ -203,6 +203,12 @@ footer p {
     font-size: 0.8rem;
   }
 
+  #partners img {
+    height: auto;
+    max-width: 90px;
+    margin-top:1.5rem;
+  }
+
   /* team cards */
   #team .w3-card {
     border-radius:2%;
@@ -215,12 +221,27 @@ footer p {
     width: 90%;
     margin: 0 auto;
   }
+
+   /* carousel */
+   #carouselExampleControls img{
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width:900px){
   /* carousel */
   #carouselExampleControls {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  #partners img {
+    height: auto;
+    max-width: 100px;
+    margin-top:1.5rem;
+  }
+
+  #partners .top-row img{
+    margin-top:0;
   }
 }
