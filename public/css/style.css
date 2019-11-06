@@ -30,54 +30,54 @@ html {
   padding: 16px;
 }
 
-.w3-container{
+.w3-container {
   padding: 7% 5%;
   padding-bottom: 5rem;
 }
 
-.row{
-  margin-top:2rem;
+.row {
+  margin-top: 2rem;
 }
 
-.col-md-6{
+.col-md-6 {
   margin: 2rem 0;
 }
 
 /* about */
 
-#about i{
-  margin-bottom:1rem;
+#about i {
+  margin-bottom: 1rem;
 }
 
 /* promo */
 #promo .row {
-  margin-top:0;
+  margin-top: 0;
 }
 
-#promo p{
+#promo p {
   margin: 5% 0;
 }
 
-#promo .col-md-6{
+#promo .col-md-6 {
   margin: 0;
- }
+}
 
- /* team */
- #team .w3-container{
-   padding: 4% 4%;
- }
+/* team */
+#team .w3-container {
+  padding: 4% 4%;
+}
 
- #team .col-sm-6{
-   margin-bottom: 2rem;
- }
+#team .col-sm-6 {
+  margin-bottom: 2rem;
+}
 
- #team img{
-   border-radius: 2% 2% 0 0;
- }
+#team img {
+  border-radius: 2% 2% 0 0;
+}
 
- #team .w3-card {
-   border-radius:2%;
- }
+#team .w3-card {
+  border-radius: 2%;
+}
 
 /* work  */
 
@@ -87,9 +87,10 @@ html {
   margin: 0 auto;
 }
 
-#carouselExampleControls img{
+#carouselExampleControls img {
   border-radius: 2%;
-  -webkit-filter: contrast(50%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: contrast(50%);
+  /* Safari 6.0 - 9.0 */
   filter: contrast(50%);
 }
 
@@ -99,8 +100,8 @@ html {
   max-width: 150px;
 }
 
-.row { 
-  margin-left:0;
+.row {
+  margin-left: 0;
   margin-right: 0;
 }
 
@@ -188,17 +189,17 @@ footer p {
   text-align: center;
 }
 
-.footer-info{
+.footer-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .footer-col {
-  margin:0 6%;
+  margin: 0 6%;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:500px) {
   .col_white_amrc {
     font-size: 0.8rem;
   }
@@ -206,12 +207,12 @@ footer p {
   #partners img {
     height: auto;
     max-width: 90px;
-    margin-top:1.5rem;
+    margin-top: 1.5rem;
   }
 
   /* team cards */
   #team .w3-card {
-    border-radius:2%;
+    border-radius: 2%;
     max-width: 250px;
     margin: 0 auto;
   }
@@ -222,13 +223,24 @@ footer p {
     margin: 0 auto;
   }
 
-   /* carousel */
-   #carouselExampleControls img{
+  /* carousel */
+  #carouselExampleControls img {
     height: 300px;
   }
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:576px) {
+
+  /* team cards */
+  #team .w3-card {
+    border-radius: 2%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:900px) {
+
   /* carousel */
   #carouselExampleControls {
     width: 100%;
@@ -238,10 +250,10 @@ footer p {
   #partners img {
     height: auto;
     max-width: 100px;
-    margin-top:1.5rem;
+    margin-top: 1.5rem;
   }
 
-  #partners .top-row img{
-    margin-top:0;
+  #partners .top-row img {
+    margin-top: 0;
   }
 }
