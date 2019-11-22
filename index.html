@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <!-- stylesheet -->
 <link rel="stylesheet" href="public/css/style.css" />
+<link rel="stylesheet" href="public/css/loader.css">
 <!-- favicon -->
 <!-- <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon" /> -->
 
@@ -25,6 +26,17 @@
 </style>
 
 <body>
+    <div class="loader-wrapper">
+        <ul role="progressbar" aria-busy="true" aria-label="Loading domino shop">
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+        </ul>
+    </div>
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-white w3-card" id="myNavbar">
@@ -73,7 +85,7 @@
     <!-- About Section -->
     <div class="w3-container" id="about">
         <h3 data-aos='fade-right' data-aos-duration="2000" class="w3-center">ABOUT THE COMPANY</h3>
-        <p class="w3-center w3-large" data-aos='fade-right' data-aos-duration="2000" >Key features of our company</p>
+        <p class="w3-center w3-large" data-aos='fade-right' data-aos-duration="2000">Key features of our company</p>
         <div class="row w3-center about-items">
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="2000">
                 <i class="fas fa-dollar-sign w3-jumbo w3-center"></i>
@@ -124,8 +136,8 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="w3-image w3-round-large" data-aos="flip-up" data-aos-duration="2000" src="public/images/SIBA.jpg" alt="Buildings" width="700"
-                    height="394" />
+                <img class="w3-image w3-round-large" data-aos="flip-up" data-aos-duration="2000"
+                    src="public/images/SIBA.jpg" alt="Buildings" width="700" height="394" />
             </div>
         </div>
     </div>
@@ -214,42 +226,41 @@
     <div class="w3-container w3-light-grey" id="work">
         <h3 class="w3-center mb-4" data-aos="fade-right" data-aos-duration="2000">WORK</h3>
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-up" data-aos-duration="2000" >
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+            data-aos-duration="2000">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="public/images/building_1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-block">
-                    <h5>lorem ipsum</h5>
-                    <p>dolor ipsum confudus imperatum</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="public/images/building_2.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-block">
-                    <h5>lorem ipsum</h5>
-                    <p>dolor ipsum confudus imperatum</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="public/images/building_3.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-block">
-                    <h5>lorem ipsum</h5>
-                    <p>dolor ipsum confudus imperatum</p>
-                  </div>
-              </div>
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="public/images/building_1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-block">
+                        <h5>lorem ipsum</h5>
+                        <p>dolor ipsum confudus imperatum</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="public/images/building_2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-block">
+                        <h5>lorem ipsum</h5>
+                        <p>dolor ipsum confudus imperatum</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="public/images/building_3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-block">
+                        <h5>lorem ipsum</h5>
+                        <p>dolor ipsum confudus imperatum</p>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
-          </div>
+        </div>
     </div>
-
-
 
     <!-- partners -->
 
@@ -265,7 +276,7 @@
             <div class="w3-center col-6 col-md-3 mt-4" data-aos="zoom-in-up" data-aos-duration="2000">
                 <img src="public/images/lendlease_logo.png" alt="">
             </div>
-            <div class="w3-center col-6 col-md-3 mt-4" data-aos="zoom-in-up" data-aos-duration="2000"> 
+            <div class="w3-center col-6 col-md-3 mt-4" data-aos="zoom-in-up" data-aos-duration="2000">
                 <img src="public/images/aus_gov.png" alt="">
             </div>
         </div>
@@ -276,9 +287,10 @@
     <!-- Contact Section -->
     <div class="w3-container w3-light-grey" id="contact">
         <h3 class="w3-center" data-aos="fade-right" data-aos-duration="2000">CONTACT</h3>
-        <p class="w3-center w3-large" data-aos="fade-right" data-aos-duration="2000">Lets get in touch. Send us a message:</p>
+        <p class="w3-center w3-large" data-aos="fade-right" data-aos-duration="2000">Lets get in touch. Send us a
+            message:</p>
         <div data-aos="fade-up" data-aos-duration="2000" style="margin-top:48px">
-            <form action="mailto:your_email" target="_blank">
+            <form action="action.php">
                 <p>
                     <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" />
                 </p>
@@ -298,8 +310,7 @@
                 </p>
             </form>
             <!-- Image of location/map -->
-            <img src="public/images/canberra.jpg" class="w3-image w3-greyscale"
-                style="width:100%;margin-top:48px" />
+            <img src="public/images/canberra.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px" />
         </div>
     </div>
 
