@@ -11,7 +11,7 @@
         opacity: 1;
         -webkit-transition: 1s opacity ease-in;
         transition: 1s opacity ease-in;
-        background: black;
+        background: white;
 }
 
 .hidden {
