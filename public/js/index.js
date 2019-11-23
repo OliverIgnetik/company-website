@@ -3,10 +3,10 @@ $(document).ready(function () {
   // listen for load of window
   setTimeout(function () {
     $(".loader-wrapper").addClass('zero-opacity')
-  }, 2000);
+  }, 3000);
   setTimeout(function () {
     $(".loader-wrapper").addClass('hidden');
-  }, 3000);
+  }, 4000);
 });
 
 // Toggle between showing and hiding the sidebar when clicking the menu icon
